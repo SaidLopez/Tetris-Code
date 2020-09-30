@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+}
+.grid{
+    width: 240px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+   
+}
+.grid div{
+    height: 20px;
+    width: 20px;
+    border-style: dotted ;
+    border-width: 1px;
+    border-color: lightcoral;
+    border-radius: 5px;
+}
+
+.tetromino{
+    background-color: black;
+    
+}
+
+.mini-grid{
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+
+}
+.mini-grid div{
+    width: 20px;
+    height: 20px;
+    border-style: dotted;
+    border-color: lightgoldenrodyellow;
+    border-width: 1px;
+}
+h3{
+    font-size: 50px;
+    align-self: baseline;
+    display: flex;
+
+}
+#start-button{
+    align-self: auto;
+    display: flex;
+}
